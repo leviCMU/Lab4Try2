@@ -1,11 +1,11 @@
 name: NewFeatureReport
 about: Report the addition of a new feature.
-title: "[Feature]: "
+title: "Feature: "
 labels: ""
 projects: ""
 assignees:
 body:
-- type: input
+  - type: input
     id: contact
     attributes:
       label: Contact Details
