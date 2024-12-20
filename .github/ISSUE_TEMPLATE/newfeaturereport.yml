@@ -1,6 +1,10 @@
 name: NewFeatureReport
-about: Report the addition of a new feature.
+description: Report the addition of the new feature.
 title: "Feature: "
+labels: ["feature", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
 body:
   - type: input
     id: contact
@@ -22,7 +26,7 @@ body:
       options:
         - New Feature
         - Existing Feature
-      default: 0
+      default: 
     validations:
       required: true
   - type: dropdown
